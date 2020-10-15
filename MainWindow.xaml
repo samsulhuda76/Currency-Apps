@@ -1,0 +1,16 @@
+﻿<Window x:Class="Currency.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Currency"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="351" Width="253">
+    <Grid Margin="482,0,0,6">
+        <Label x:Name="label" Content="USD" HorizontalAlignment="Left" Margin="-446,33,0,0" VerticalAlignment="Top" Height="24" Width="156"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="-448,78,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154" Height="23"/>
+        <Button x:Name="button" Content="HITUNG" HorizontalAlignment="Left" Margin="-445,122,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label x:Name="label1" Content="Nilai tukar rupiah" HorizontalAlignment="Left" Margin="-437,175,0,0" VerticalAlignment="Top" Width="145"/>
+        <Label x:Name="label2" Content="0" HorizontalAlignment="Left" Margin="-441,224,0,0" VerticalAlignment="Top" Width="148"/>
+    </Grid>
+</Window>
